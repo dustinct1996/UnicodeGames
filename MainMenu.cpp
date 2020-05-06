@@ -27,7 +27,7 @@ int main()
 		screen[i] = L' ';
 
 	wsprintf(&screen[2 * screenWidth + 4], L"WELCOME TO THE BEST FREAKIN' GAME CONSOLE EVER DEVISED BY A MORAL BEING.");
-	wsprintf(&screen[8 * screenWidth + 15], L"PRESS \"1\" TO PLAY SNAKE. PRESS \"2\" TO PLAY TETRIS.");
+	wsprintf(&screen[8 * screenWidth + 15], L"PRESS \"1\" TO PLAY SNAKE. PRESS \"2\" TO PLAY SPACE INVADERS.");
 	wsprintf(&screen[12 * screenWidth + 28], L"MORE GAMES COMING SOON...");
 
 	WriteConsoleOutputCharacter(hConsole, screen, screenArea, { 0, 0 }, &dwBytesWritten);
@@ -40,7 +40,7 @@ int main()
 		if (bKey[0])
 			Snake();
 		else if (bKey[1])
-			Tetris();
+			SpaceInvaders();
 	}
 
 	return 0;
