@@ -1,11 +1,3 @@
-#include <algorithm>
-#include <iostream>
-#include <fstream>
-#include <string>
-#include <thread>
-#include <vector>
-#include <time.h>
-#include <stdlib.h>
 #include <Windows.h>
 #include "Games.h"
 
