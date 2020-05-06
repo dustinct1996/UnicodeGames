@@ -39,8 +39,8 @@ int main()
 
 		if (bKey[0])
 			Snake();
-		else if (bKey[1])
-			SpaceInvaders();
+		// else if (bKey[1])
+		//	SpaceInvaders();
 	}
 
 	return 0;
