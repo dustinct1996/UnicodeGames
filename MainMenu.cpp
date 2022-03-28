@@ -18,7 +18,7 @@ int main()
 	for (int i = 0; i < screenArea; i++)
 		screen[i] = L' ';
 
-	wsprintf(&screen[2 * screenWidth + 4], L"WELCOME TO THE BEST FREAKIN' GAME CONSOLE EVER DEVISED BY A MORAL BEING.");
+	wsprintf(&screen[2 * screenWidth + 4], L"WELCOME");
 	wsprintf(&screen[8 * screenWidth + 15], L"PRESS \"1\" TO PLAY SNAKE. PRESS \"2\" TO PLAY SPACE INVADERS.");
 	wsprintf(&screen[12 * screenWidth + 28], L"MORE GAMES COMING SOON...");
 
